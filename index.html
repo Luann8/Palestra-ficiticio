@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2023</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Cor de fundo cinza claro */
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            background-image: url("https://img.freepik.com/vector-premium/fondo-vector-abstracto-onda-dinamica-digital-lineas-puntos-conexion-triangulos-visualizacion-datos-grandes_698341-444.jpg?w=1060");
+            background-size: cover;
+            background-position: center;
+            padding: 200px 0;
+            color: #fff; /* Cor do texto no topo da imagem do cabeçalho */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 40px 0;
+            text-align: left;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-heading {
+            font-size: 28px;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        .speaker {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .speaker-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            overflow: hidden;
+        }
+
+        .speaker-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .speaker-info {
+            flex: 1;
+        }
+
+        .timeline {
+            list-style: none;
+            padding: 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .timeline-item-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #007BFF;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+
+        .timeline-item-content {
+            flex: 1;
+        }
+
+        .registration {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .registration-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .registration-button:hover {
+            background-color: #0056b3;
+        }
+
+        .location {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .location h2 {
+            color: #007BFF;
+        }
+
+        .location-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        /* Animação para botão de inscrição */
+        .registration-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        
+        /* Estilos para a seção de contatos e redes sociais */
+        .contact-section {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-section h2 {
+            color: #fff;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechFest 2023</h1>
+        <p>12-14 de Setembro</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2 class="section-heading">Palestrantes</h2>
+            <div class="speaker">
+                <div class="speaker-image">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQGyJefU5y3H8A/profile-displayphoto-shrink_100_100/0/1691775700088?e=1699488000&v=beta&t=m2uZm-ZhQhCbhdAPw7VCFRBEcYC3XakkMXij6iC4Hys" alt="Palestrante 1">
+                </div>
+                <div class="speaker-info">
+                    <h3>Palestrante 1 : Luis das Flores</h3>
+                    <p>CEO da Empresa MIOJ</p>
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="speaker-image">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQGg_xLkDAJNnQ/profile-displayphoto-shrink_100_100/0/1687373843315?e=1699488000&v=beta&t=fw4JMhi44avTituyArOg6HntEZMhStr8TZzbbwi0-H0" alt="Palestrante 2">
+                </div>
+                <div class="speaker-info">
+                    <h3>Palestrante 2 : Pedro Alura</h3>
+                    <p>CTO da Empresa P.C.N</p>
+                </div>
+                </div>
+            <div class="speaker">
+                <div class="speaker-image">
+                    <img src="C:\Users\luann\OneDrive\Imagens\Screenshots\Captura de tela 2023-09-09 102443.png" alt="Palestrante 3">
+                </div>
+                <div class="speaker-info">
+                    <h3>Palestrante 3: João Neticia</h3>
+                    <p>Empreendedor da Empresa Twitch Italiana</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-heading">Programação</h2>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <div class="timeline-item-icon">D1</div>
+                    <div class="timeline-item-content">
+                        <h3>Dia 12/9</h3>
+                        <p>Palestras sobre Inovação</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-item-icon">D2</div>
+                    <div class="timeline-item-content">
+                        <h3>Dia 13/9</h3>
+                        <p>Workshops Práticos</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-item-icon">D3</div>
+                    <div class="timeline-item-content">
+                        <h3>Dia 14/9</h3>
+                        <p>Networking e Encerramento</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="registration">
+                <h2 class="section-heading">Inscrições Abertas</h2>
+                <a class="registration-button" href="#">Clique aqui para se inscrever</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="location">
+                <h2 class="section-heading">Local do Evento</h2>
+                <div class="location-info">
+                    <p>Centro de Convenções TechPlace</p>
+                    <p>Rua da Tecnologia, 123</p>
+                    <img src="C:\Users\luann\Downloads\Figura-1-Regiao-Central-Mapa-de-localizacao-e-configuracao-espacial (1).jpg" alt="Mapa" width="256">
+                    <img src="C:\Users\luann\Downloads\OIG.euoHxQxSnWJ1xW (1).jpg" alt="Pessoa lendo no café" width="256">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="box contact-section">
+    <h2 class="section-heading">Contatos</h2>
+            <div class="contact-info">
+                <p>Email: contato@techfest.com</p>
+                <p>Telefone: +55 (123) 000-0000</p>
+            </div>
+    </body>
+</html>
